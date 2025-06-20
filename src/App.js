@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import AboutSection from './components/AboutSection';
+import CtaSection from './components/CtaSection';
+import FaqSection from './components/FaqSection';
+import FeelBeautifulGrid from './components/FeelBeautifulGrid';
+import Footer from './components/FooterSection';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import ProductGrid from './components/ProductGrid';
+import WhyChooseUs from './components/WhyChooseUs';
+import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <HeroSection/>
+      <AboutSection/>
+      <WhyChooseUs/>
+      <ProductGrid/>
+      <CtaSection/>
+      <FeelBeautifulGrid/>
+      <FaqSection/>
+      <Footer/>
     </div>
   );
 }
