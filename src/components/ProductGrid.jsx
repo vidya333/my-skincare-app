@@ -58,13 +58,13 @@ const ProductGrid = () => {
             <div className=" flex space-x-7 ">
            
             <button className="bg-white text-white p-10 border-dark-gray border rounded-full 
-            hover:bg-opacity-90 transition-all duration-200 relative" onClick={() => scrollCarousel(-1)}>
+            hover:bg-gray-300 transition-all duration-200 relative" onClick={() => scrollCarousel(-1)}>
               <span className="h-5 w-5 z-10"></span>
               <img src={arrowdark} alt="arrow" className='z-50 absolute right-0 top-8' />
             </button>
 
             <button className="bg-dark-gray text-white p-10 border rounded-full 
-            hover:bg-opacity-90 transition-all duration-200 relative" onClick={() => scrollCarousel(1)}>
+            hover:bg-opacity-70 transition-all duration-200 relative" onClick={() => scrollCarousel(1)}>
               <span className="h-5 w-5 z-10"></span>
               <img src={arrowlight} alt="arrow" className='z-50 absolute left-0 top-8' />
             </button>
@@ -128,13 +128,13 @@ const ProductGrid = () => {
             <div className="justify-center flex space-x-7 ">
            
             <button className="bg-white text-white p-10 border-dark-gray border rounded-full 
-            hover:bg-opacity-90 transition-all duration-200 relative" onClick={() => scrollCarousel(-1)}>
+            hover:bg-gray-300 transition-all duration-200 relative" onClick={() => scrollCarousel(-1)}>
               <span className="h-5 w-5 z-10"></span>
               <img src={arrowdark} alt="arrow" className='z-50 absolute right-0 top-8' />
             </button>
 
             <button className="bg-dark-gray text-white p-10 border rounded-full 
-            hover:bg-opacity-90 transition-all duration-200 relative" onClick={() => scrollCarousel(1)}>
+            hover:bg-opacity-70 transition-all duration-200 relative" onClick={() => scrollCarousel(1)}>
               <span className="h-5 w-5 z-10"></span>
               <img src={arrowlight} alt="arrow" className='z-50 absolute left-0 top-8' />
             </button>

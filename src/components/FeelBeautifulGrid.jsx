@@ -114,10 +114,10 @@ function FeelBeautifulGrid() {
           {/* Arrows */}
           <span className='w-full xl:w-auto block my-10 xl:hidden'>
             <div className="justify-center flex space-x-7 ">
-              <button className="bg-white text-white p-10 border-dark-gray border rounded-full hover:bg-opacity-90 transition-all duration-200 relative" onClick={() => scrollCarousel(-1)}>
+              <button className="bg-white text-white p-10 border-dark-gray border rounded-full hover:bg-gray-300 transition-all duration-200 relative" onClick={() => scrollCarousel(-1)}>
                 <img src={arrowdark} alt="arrow" className='z-50 absolute right-0 top-8' />
               </button>
-              <button className="bg-dark-gray text-white p-10 border rounded-full hover:bg-opacity-90 transition-all duration-200 relative" onClick={() => scrollCarousel(1)}>
+              <button className="bg-dark-gray text-white p-10 border rounded-full hover:bg-opacity-70 transition-all duration-200 relative" onClick={() => scrollCarousel(1)}>
                 <img src={arrowlight} alt="arrow" className='z-50 absolute left-0 top-8' />
               </button>
             </div>
